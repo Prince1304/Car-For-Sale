@@ -1,5 +1,5 @@
-@import url('animation.css');
-@import url('media.css');
+@import url('/Styling/animation.css');
+@import url('/Styling/media.css');
 
 *{
     margin: 0;
