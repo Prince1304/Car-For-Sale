@@ -1,5 +1,5 @@
-@import url('Styling/animation.css');
-@import url('Styling/media.css');
+@import url('/Styling/animation.css');
+@import url('/Styling/media.css');
 
 *{
     margin: 0;
@@ -12,7 +12,7 @@
 .main{
     background-image: 
     linear-gradient(to bottom, rgba(0, 0, 0,1) 0%, rgba(0, 0, 0,0.4) 70%, rgba(0, 0, 0, 0) 100%),
-    url('https://i.pinimg.com/1200x/84/26/42/8426424aab9c235a3cebd84b79f82dfd.jpg');
+    url('/Images/car_bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
