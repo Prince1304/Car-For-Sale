@@ -1,42 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cars</title>
-    <link rel="stylesheet" href="Styling/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bitcount+Prop+Single:wght@100..900&family=Black+Ops+One&family=Foldit:wght@100..900&family=Geist+Pixel&family=Londrina+Shadow&family=Orbitron:wght@400..900&family=Rubik+80s+Fade&family=Rubik+Glitch&family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car for Sale</title>
+    <link rel="stylesheet" href="Styling/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Rubik+Glitch&family=Turret+Road:wght@200;300;400;500;700;800&display=swap"
+        rel="stylesheet" />
 </head>
+
 <body>
-    <div class="main">
-    <nav>
-        <div class="logo">
-            <img id="img1" src="Images/car.png" width="150px" height="100px" alt="LOGO">
-            <img id="img2" src="Images/smook.png" width="100px" height="100px" alt="Smook">
-        </div>
-        <div class="nav-menu">
-            <a href="">Home</a>
-            <a href="">Gallary</a>
-            <a href="">About</a>
-            <a href="">Contact Us</a>
-        </div>
-        <div class="nav-number">
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-            <a href=""><i class="fa fa-phone"></i></a>
-        </div>
-    </nav>
-    <div class="content">
-        <h1>PORCHE</h1>
-        <h2>Your Comforte,</h2><h2>Is Our Resposiblity</h2>
-        <p>Over 20 years ago we asked ourselves if a sports car could celebrate more than the individual.</p>
-    </div>
-    </div>
-    <div class="cars-model">
-        
-    </div>
+    <header class="hero" id="home">
+        <nav>
+            <div class="logo">
+                <img id="img1" src="Images/car.png" width="150px" height="100px" alt="LOGO">
+                <img id="img2" src="Images/smook.png" width="100px" height="100px">
+            </div>
+            <div class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <div class="nav-number">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa fa-phone"></i></a>
+            </div>
+        </nav>
+
+        <section class="hero-content">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <p class="eyebrow">Premium cars • Trusted sales</p>
+                    <h1 class="title">PORCHE</h1>
+                    <h2 class="subtitle">Your Comfort is <span>Our Responsibility</span></h2>
+                    <p class="lead">Over 20 years ago we asked ourselves if a sports car could celebrate more than the
+                        individual. The answer was: yes—through comfort, reliability, and service.</p>
+
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#gallery"><i class="fa-solid fa-car" aria-hidden="true"></i>
+                            Explore Cars</a>
+                        <a class="btn btn-ghost" href="#contact"><i class="fa-regular fa-calendar-check"
+                                aria-hidden="true"></i> Book an Appointment</a>
+                    </div>
+
+                    <div class="quick-stats" role="list" aria-label="Quick stats">
+                        <div class="stat" role="listitem">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat" role="listitem">
+                            <span class="stat-number">150+</span>
+                            <span class="stat-label">Cars Sold</span>
+                        </div>
+                        <div class="stat" role="listitem">
+                            <span class="stat-number">4.9★</span>
+                            <span class="stat-label">Customer Rating</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="visual-card">
+                        <div class="visual-top">
+                            <span class="chip"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+                                Inspected</span>
+                            <span class="chip"><i class="fa-solid fa-gauge" aria-hidden="true"></i> Performance
+                                Ready</span>
+                        </div>
+                        <div class="visual-body">
+                            <img src="Images/car.png" alt="Featured car" class="visual-image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
 </body>
+
 </html>
