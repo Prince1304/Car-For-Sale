@@ -241,6 +241,60 @@
                 </div>
             </div>
         </section>
+
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="contact-wrap">
+                    <div class="contact-copy">
+                        <h3 class="section-title">Book an Appointment</h3>
+                        <p class="section-subtitle">Send a request and we’ll contact you with available times.</p>
+                        <ul class="contact-points">
+                            <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Lagos • Abuja • Online</li>
+                            <li><i class="fa-solid fa-envelope" aria-hidden="true"></i> sales@porschecars.com</li>
+                            <li><i class="fa-solid fa-phone" aria-hidden="true"></i> +234 800 000 0000</li>
+                        </ul>
+                    </div>
+
+                    <form class="contact-form" action="#" method="post">
+                        <div class="field-row">
+                            <label>
+                                <span>Your Name</span>
+                                <input type="text" name="name" placeholder="John Doe" required />
+                            </label>
+                            <label>
+                                <span>Phone</span>
+                                <input type="tel" name="phone" placeholder="+234 ..." required />
+                            </label>
+                        </div>
+
+                        <label>
+                            <span>Select Car</span>
+                            <select name="car" required>
+                                <option value="">Choose...</option>
+                                <option>PORCHE 911</option>
+                                <option>PORCHE Taycan</option>
+                                <option>PORCHE Macan</option>
+                            </select>
+                        </label>
+
+                        <label>
+                            <span>Preferred Day</span>
+                            <input type="date" name="date" required />
+                        </label>
+
+                        <label>
+                            <span>Message</span>
+                            <textarea name="message" rows="4" placeholder="Tell us what you need..."
+                                required></textarea>
+                        </label>
+
+                        <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"
+                                aria-hidden="true"></i> Submit request</button>
+                        <p class="form-note">By submitting, you agree to be contacted about your appointment.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
